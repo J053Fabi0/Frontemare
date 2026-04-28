@@ -14,7 +14,7 @@ export default function CommonHeaders() {
       <meta name="robots" content="index, follow" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Renta casa en Frontemare" />
-      <meta property="og:title" content="Renta casa en Frontemare #169" />
+      <meta property="og:title" content="Renta casa en Frontemare" />
       <meta
         property="og:description"
         content="Casa en renta, completamente amueblada en Frontemare, con espacios amplios, alberca, balcón, patio y una ubicación práctica junto a servicios esenciales."
@@ -29,7 +29,7 @@ export default function CommonHeaders() {
       />
       <meta property="og:url" content="https://frontemare.josefabio.com/" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Casa en Frontemare #169" />
+      <meta name="twitter:title" content="Casa en Frontemare" />
       <meta
         name="twitter:description"
         content="Casa en renta, completamente amueblada en Fraccionamiento Frontemare, con 3 recámaras, alberca, patio, balcón y excelente ubicación."
