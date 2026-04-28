@@ -231,6 +231,42 @@ export default function Index() {
         </div>
       </section>
 
+      <section className="container px-6 pb-10 md:pl-16">
+        <div className="max-w-3xl">
+          <h2 className="text-xl font-semibold">Contacto</h2>
+          <div className="mt-4 flex flex-wrap gap-3">
+            <a
+              href="https://api.whatsapp.com/send?phone=526141210171"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-gray-900 px-5 py-2 text-sm font-medium transition hover:bg-gray-900 hover:text-white"
+            >
+              WhatsApp
+            </a>
+            <a
+              href="https://t.me/josefabio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-gray-900 px-5 py-2 text-sm font-medium transition hover:bg-gray-900 hover:text-white"
+            >
+              Telegram
+            </a>
+            <a
+              href="mailto:senorbinario@tuta.io"
+              className="rounded-full border border-gray-900 px-5 py-2 text-sm font-medium transition hover:bg-gray-900 hover:text-white"
+            >
+              Correo
+            </a>
+            <a
+              href="tel:+526141210171"
+              className="rounded-full border border-gray-900 px-5 py-2 text-sm font-medium transition hover:bg-gray-900 hover:text-white"
+            >
+              6141210171
+            </a>
+          </div>
+        </div>
+      </section>
+
       <div className="w-full">
         <div className="relative h-0 overflow-hidden pb-[61.54%]">
           <iframe
