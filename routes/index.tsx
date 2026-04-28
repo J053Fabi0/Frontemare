@@ -221,10 +221,8 @@ export default function Index() {
       </Head>
 
       <div className="container px-6 pt-16 md:pl-16">
-        <h1 className="m-0 mb-8 text-3xl font-normal">
-          <span className="text-4xl">Renta de casa en Frontemare</span>
-          <br />
-          #169
+        <h1 className="m-0 mb-8 text-4xl font-normal">
+          Renta de casa en Frontemare
         </h1>
       </div>
 
@@ -241,6 +239,22 @@ export default function Index() {
             iluminados y acogedores, perfectos para disfrutar de un ambiente
             tranquilo y confortable.
           </p>
+
+          <div className="rounded-2xl border border-stone-200 bg-stone-50 px-5 py-4 shadow-sm">
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+              <div>
+                <p className="text-sm tracking-[0.18em] text-stone-500 uppercase">
+                  Renta mensual
+                </p>
+                <p className="text-3xl font-semibold text-stone-900">
+                  $21,000 MXN
+                </p>
+              </div>
+              <p className="max-w-md text-sm text-stone-600">
+                Ocupación máxima para 6 personas, sin mascotas.
+              </p>
+            </div>
+          </div>
 
           <div>
             <h2 className="text-xl font-semibold">Caracteristicas</h2>
@@ -306,7 +320,10 @@ export default function Index() {
       </section>
 
       <div className="w-full">
-        <div className="relative h-0 overflow-hidden pb-[61.54%]">
+        <div
+          className="relative w-full overflow-hidden"
+          style={{ height: "min(61.54vw, 60vh)" }}
+        >
           <iframe
             src="https://maps.google.com/maps?width=650&height=400&hl=en&q=20.670658%2C%20-87.065804&t=&z=14&ie=UTF8&iwloc=B&output=embed"
             className="absolute top-0 left-0 h-full w-full border-0"
@@ -316,17 +333,8 @@ export default function Index() {
           ></iframe>
         </div>
       </div>
-      <div className="line text-[10px]/[10px] opacity-75">
-        <a
-          href="https://www.embedgooglemap.net/?utm_source=embed&utm_medium=referral&utm_campaign=map_embed"
-          target="_blank"
-          rel="noopener"
-        >
-          Embed Google Map
-        </a>
-      </div>
 
-      <div className="mb-16 flex flex-col gap-16">
+      <div className="mt-16 mb-16 flex flex-col gap-16">
         {roomOrSpaces.map((roomOrSpace) => (
           <div>
             <div className="container px-6 md:pl-16">
