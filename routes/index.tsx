@@ -1,6 +1,7 @@
 import { Head } from "fresh/runtime";
 import { JSX } from "preact/jsx-runtime";
 import ResponsiveImage from "@/components/ResponsiveImage.tsx";
+import Map from "@/components/Map.tsx";
 
 interface MediaImage {
   type: "image";
@@ -319,20 +320,7 @@ export default function Index() {
         </div>
       </section>
 
-      <div className="w-full">
-        <div
-          className="relative w-full overflow-hidden"
-          style={{ height: "min(61.54vw, 60vh)" }}
-        >
-          <iframe
-            src="https://maps.google.com/maps?width=650&height=400&hl=en&q=20.670658%2C%20-87.065804&t=&z=14&ie=UTF8&iwloc=B&output=embed"
-            className="absolute top-0 left-0 h-full w-full border-0"
-            allowFullScreen
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-      </div>
+      <Map coordinates="20.670658, -87.065804" />
 
       <div className="mt-16 mb-16 flex flex-col gap-16">
         {roomOrSpaces.map((roomOrSpace) => (
