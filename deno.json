@@ -1,16 +1,16 @@
 {
   "nodeModulesDir": "manual",
   "tasks": {
-    "stop": "pm2 stop josefabio",
-    "logs": "pm2 logs josefabio",
-    "delete": "pm2 delete josefabio",
-    "reload": "deno task build && pm2 reload josefabio && pm2 logs josefabio",
-    "start": "deno task build && DENO_DEPLOYMENT_ID=\"$(git rev-parse HEAD)\" pm2 start --interpreter='deno' --interpreter-args='serve --port=5055 -A' --name josefabio _fresh/server.js && pm2 logs josefabio",
+    "stop": "pm2 stop frontemare",
+    "logs": "pm2 logs frontemare",
+    "delete": "pm2 delete frontemare",
+    "reload": "deno task build && pm2 reload frontemare && pm2 logs frontemare",
+    "start": "deno task build && DENO_DEPLOYMENT_ID=\"$(git rev-parse HEAD)\" pm2 start --interpreter='deno' --interpreter-args='serve --port=5057 -A' --name frontemare _fresh/server.js && pm2 logs frontemare",
     "check": "deno check --allow-import main.ts",
-    "preview": "deno serve --port=5056 -A _fresh/server.js",
+    "preview": "deno serve --port=5057 -A _fresh/server.js",
     "update_deps": "deno outdated",
     "update_deps_now": "deno outdated --update --latest",
-    "dev": "vite --port=5056",
+    "dev": "vite --port=5057",
     "build": "vite build",
     "update": "deno run -A -r jsr:@fresh/update ."
   },
