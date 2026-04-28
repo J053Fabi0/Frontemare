@@ -190,6 +190,27 @@ export default function Index() {
         </h1>
       </div>
 
+      <div className="w-full">
+        <div className="relative h-0 overflow-hidden pb-[61.54%]">
+          <iframe
+            src="https://maps.google.com/maps?width=650&height=400&hl=en&q=20.670658%2C%20-87.065804&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+            className="absolute top-0 left-0 h-full w-full border-0"
+            allowFullScreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div className="line text-[10px]/[10px] opacity-75">
+        <a
+          href="https://www.embedgooglemap.net/?utm_source=embed&utm_medium=referral&utm_campaign=map_embed"
+          target="_blank"
+          rel="noopener"
+        >
+          Embed Google Map
+        </a>
+      </div>
+
       <div className="mb-16 flex flex-col gap-16">
         {roomOrSpaces.map((roomOrSpace) => (
           <div>
