@@ -5,8 +5,9 @@
     "jsr:@deno/loader@0.4": "0.4.0",
     "jsr:@deno/loader@~0.3.10": "0.3.14",
     "jsr:@fresh/build-id@1": "1.0.1",
-    "jsr:@fresh/core@2": "2.3.1",
-    "jsr:@fresh/core@^2.3.0": "2.3.1",
+    "jsr:@fresh/core@2": "2.3.3",
+    "jsr:@fresh/core@^2.3.0": "2.3.3",
+    "jsr:@fresh/core@^2.3.3": "2.3.3",
     "jsr:@fresh/plugin-vite@^1.0.8": "1.1.0",
     "jsr:@std/bytes@^1.0.6": "1.0.6",
     "jsr:@std/dotenv@~0.225.5": "0.225.6",
@@ -31,8 +32,8 @@
     "npm:@babel/core@^7.28.0": "7.29.0",
     "npm:@babel/preset-react@^7.27.1": "7.28.5_@babel+core@7.29.0",
     "npm:@opentelemetry/api@^1.9.0": "1.9.1",
-    "npm:@preact/signals@^2.5.0": "2.9.0_preact@10.29.1",
     "npm:@preact/signals@^2.5.1": "2.9.0_preact@10.29.1",
+    "npm:@preact/signals@^2.9.0": "2.9.0_preact@10.29.1",
     "npm:@prefresh/vite@^2.4.8": "2.4.12_preact@10.29.1_vite@7.3.2",
     "npm:@remix-run/node-fetch-server@0.12": "0.12.0",
     "npm:@tailwindcss/vite@^4.1.12": "4.2.4_vite@7.3.2",
@@ -41,7 +42,6 @@
     "npm:esbuild@0.25.7": "0.25.7",
     "npm:esbuild@~0.25.5": "0.25.12",
     "npm:preact-render-to-string@^6.6.3": "6.6.7_preact@10.29.1",
-    "npm:preact@^10.27.2": "10.29.1",
     "npm:preact@^10.28.2": "10.29.1",
     "npm:preact@^10.29.1": "10.29.1",
     "npm:prettier-plugin-tailwindcss@~0.6.11": "0.6.14_prettier@3.8.3",
@@ -72,8 +72,8 @@
         "jsr:@std/encoding"
       ]
     },
-    "@fresh/core@2.3.1": {
-      "integrity": "9cb63e3f6a7e6aeafe6430f1c6f1c14a86172d47d3436c8a0848d149f036f4b0",
+    "@fresh/core@2.3.3": {
+      "integrity": "6c2aad199976644352c89a1d601f3ef331b1d24cdadb53ed469324a303598383",
       "dependencies": [
         "jsr:@deno/esbuild-plugin",
         "jsr:@fresh/build-id",
@@ -1478,12 +1478,12 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@fresh/core@^2.3.0",
+      "jsr:@fresh/core@^2.3.3",
       "jsr:@fresh/plugin-vite@^1.0.8",
       "jsr:@std/path@^1.1.4",
-      "npm:@preact/signals@^2.5.0",
+      "npm:@preact/signals@^2.9.0",
       "npm:@tailwindcss/vite@^4.1.12",
-      "npm:preact@^10.27.2",
+      "npm:preact@^10.29.1",
       "npm:prettier-plugin-tailwindcss@~0.6.11",
       "npm:prettier@^3.5.3",
       "npm:tailwindcss@^4.1.10",
