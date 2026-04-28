@@ -1,6 +1,7 @@
 import Map from "@/components/Map.tsx";
 import { JSX } from "preact/jsx-runtime";
 import ResponsiveImage from "@/components/ResponsiveImage.tsx";
+import Price from "@/components/Price.tsx";
 
 interface MediaImage {
   type: "image";
@@ -199,21 +200,10 @@ export default function Index() {
             tranquilo y confortable.
           </p>
 
-          <div className="rounded-2xl border border-stone-200 bg-stone-50 px-5 py-4 shadow-sm">
-            <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-              <div>
-                <p className="text-sm tracking-[0.18em] text-stone-500 uppercase">
-                  Renta mensual
-                </p>
-                <p className="text-3xl font-semibold text-stone-900">
-                  $21,000 MXN
-                </p>
-              </div>
-              <p className="max-w-md text-sm text-stone-600">
-                Ocupación máxima para 6 personas, sin mascotas.
-              </p>
-            </div>
-          </div>
+          <Price
+            price={21000}
+            description="Ocupación máxima para 6 personas, sin mascotas."
+          />
 
           <div>
             <h2 className="text-xl font-semibold">Caracteristicas</h2>
