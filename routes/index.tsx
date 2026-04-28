@@ -190,6 +190,47 @@ export default function Index() {
         </h1>
       </div>
 
+      <section className="container px-6 pb-10 md:pl-16">
+        <div className="max-w-3xl space-y-4 font-sans text-base leading-relaxed">
+          <p>
+            Casa completamente amueblada en Fraccionamiento Frontemare, ideal
+            para quienes buscan comodidad, tranquilidad y espacios amplios para
+            vivir.
+          </p>
+          <p>
+            La propiedad cuenta con 3 recamaras y 3 banos completos, con
+            capacidad comoda para hasta 6 personas. Sus espacios son amplios,
+            iluminados y acogedores, perfectos para disfrutar de un ambiente
+            tranquilo y confortable.
+          </p>
+
+          <div>
+            <h2 className="text-xl font-semibold">Caracteristicas</h2>
+            <ul className="mt-2 ml-5 list-disc space-y-1">
+              <li>Totalmente amueblada</li>
+              <li>Aire acondicionado</li>
+              <li>Internet</li>
+              <li>Cocina equipada</li>
+              <li>Lavadora y secadora</li>
+              <li>TV</li>
+              <li>Escritorio para home office</li>
+              <li>Patio y jardin</li>
+              <li>Balcon</li>
+              <li>Alberca</li>
+              <li>Estacionamiento</li>
+              <li>Entrada independiente</li>
+              <li>Agua caliente</li>
+              <li>Seguridad y vigilancia</li>
+            </ul>
+          </div>
+
+          <p>
+            Excelente ubicacion: Cerca de Walmart, Chedraui, hospitales,
+            farmacias y diversas tiendas y servicios esenciales.
+          </p>
+        </div>
+      </section>
+
       <div className="w-full">
         <div className="relative h-0 overflow-hidden pb-[61.54%]">
           <iframe
