@@ -183,20 +183,20 @@ export default function Index() {
         <title>Casa en Frontemare</title>
         <meta
           name="description"
-          content="Casa completamente amueblada en Fraccionamiento Frontemare, con 3 recámaras, 2 baños completos, patio, balcón, alberca, área de trabajo y excelente ubicación cerca de Walmart y Chedraui."
+          content="Casa en renta, completamente amueblada en Fraccionamiento Frontemare, con 3 recámaras, 2 baños completos, patio, balcón, alberca, área de trabajo y excelente ubicación cerca de Walmart y Chedraui."
         />
         <meta
           name="keywords"
-          content="Casa en Frontemare, casa amueblada, renta casa Cancún, casa con alberca, Fraccionamiento Frontemare, 3 recámaras, home office"
+          content="Renta de casa en Frontemare, casa amueblada, renta casa Cancún, casa con alberca, Fraccionamiento Frontemare, 3 recámaras, home office"
         />
         <meta name="author" content="Jose Fabio" />
         <meta name="robots" content="index, follow" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Casa en Frontemare" />
-        <meta property="og:title" content="Casa en Frontemare #169" />
+        <meta property="og:site_name" content="Renta casa en Frontemare" />
+        <meta property="og:title" content="Renta casa en Frontemare #169" />
         <meta
           property="og:description"
-          content="Casa completamente amueblada en Frontemare, con espacios amplios, alberca, balcón, patio y una ubicación práctica junto a servicios esenciales."
+          content="Casa en renta, completamente amueblada en Frontemare, con espacios amplios, alberca, balcón, patio y una ubicación práctica junto a servicios esenciales."
         />
         <meta
           property="og:image"
@@ -211,7 +211,7 @@ export default function Index() {
         <meta name="twitter:title" content="Casa en Frontemare #169" />
         <meta
           name="twitter:description"
-          content="Casa completamente amueblada en Fraccionamiento Frontemare, con 3 recámaras, alberca, patio, balcón y excelente ubicación."
+          content="Casa en renta, completamente amueblada en Fraccionamiento Frontemare, con 3 recámaras, alberca, patio, balcón y excelente ubicación."
         />
         <meta
           name="twitter:image"
@@ -222,7 +222,7 @@ export default function Index() {
 
       <div className="container px-6 pt-16 md:pl-16">
         <h1 className="m-0 mb-8 text-3xl font-normal">
-          <span className="text-4xl">Casa en Frontemare</span>
+          <span className="text-4xl">Renta de casa en Frontemare</span>
           <br />
           #169
         </h1>
