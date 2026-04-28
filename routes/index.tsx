@@ -277,7 +277,7 @@ export default function Index() {
               href="https://api.whatsapp.com/send?phone=526141210171"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full border border-gray-900 px-5 py-2 text-sm font-medium transition hover:bg-gray-900 hover:text-white"
+              className="rounded-full border border-emerald-500 bg-emerald-500 px-5 py-2 text-sm font-medium text-white shadow-sm transition hover:border-emerald-600 hover:bg-emerald-600 hover:shadow-md"
             >
               WhatsApp
             </a>
@@ -285,19 +285,19 @@ export default function Index() {
               href="https://t.me/josefabio"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full border border-gray-900 px-5 py-2 text-sm font-medium transition hover:bg-gray-900 hover:text-white"
+              className="rounded-full border border-sky-500 bg-sky-500 px-5 py-2 text-sm font-medium text-white shadow-sm transition hover:border-sky-600 hover:bg-sky-600 hover:shadow-md"
             >
               Telegram
             </a>
             <a
               href="mailto:senorbinario@tuta.io"
-              className="rounded-full border border-gray-900 px-5 py-2 text-sm font-medium transition hover:bg-gray-900 hover:text-white"
+              className="rounded-full border border-amber-500 bg-amber-500 px-5 py-2 text-sm font-medium text-white shadow-sm transition hover:border-amber-600 hover:bg-amber-600 hover:shadow-md"
             >
               Correo
             </a>
             <a
               href="tel:+526141210171"
-              className="rounded-full border border-gray-900 px-5 py-2 text-sm font-medium transition hover:bg-gray-900 hover:text-white"
+              className="rounded-full border border-stone-900 bg-stone-900 px-5 py-2 text-sm font-medium text-white shadow-sm transition hover:border-stone-950 hover:bg-stone-950 hover:shadow-md"
             >
               6141210171
             </a>
