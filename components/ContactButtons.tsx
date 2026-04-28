@@ -1,4 +1,3 @@
-// @ts-types="preact/compat/jsx-dev-runtime"
 import { JSX } from "preact/jsx-dev-runtime";
 
 export enum ContactType {
