@@ -2,6 +2,7 @@ import Map from "@/components/Map.tsx";
 import { JSX } from "preact/jsx-runtime";
 import ResponsiveImage from "@/components/ResponsiveImage.tsx";
 import Price from "@/components/Price.tsx";
+import ContactButtons, { ContactType } from "@/components/ContactButtons.tsx";
 
 interface MediaImage {
   type: "image";
@@ -181,7 +182,7 @@ export default function Index() {
   return (
     <>
       <div className="container px-6 pt-16 md:pl-16">
-        <h1 className="m-0 mb-8 text-4xl font-normal">
+        <h1 className="m-0 mb-8 font-sans text-4xl">
           Renta de casa en Frontemare
         </h1>
       </div>
@@ -232,41 +233,14 @@ export default function Index() {
         </div>
       </section>
 
-      <section className="container px-6 pb-10 md:pl-16">
-        <div className="max-w-3xl">
-          <h2 className="text-xl font-semibold">Contacto</h2>
-          <div className="mt-4 flex flex-wrap gap-3">
-            <a
-              href="https://api.whatsapp.com/send?phone=526141210171"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-full border border-emerald-500 bg-emerald-500 px-5 py-2 text-sm font-medium text-white shadow-sm transition hover:border-emerald-600 hover:bg-emerald-600 hover:shadow-md"
-            >
-              WhatsApp
-            </a>
-            <a
-              href="https://t.me/josefabio"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-full border border-sky-500 bg-sky-500 px-5 py-2 text-sm font-medium text-white shadow-sm transition hover:border-sky-600 hover:bg-sky-600 hover:shadow-md"
-            >
-              Telegram
-            </a>
-            <a
-              href="mailto:senorbinario@tuta.io"
-              className="rounded-full border border-amber-500 bg-amber-500 px-5 py-2 text-sm font-medium text-white shadow-sm transition hover:border-amber-600 hover:bg-amber-600 hover:shadow-md"
-            >
-              Correo
-            </a>
-            <a
-              href="tel:+526141210171"
-              className="rounded-full border border-stone-900 bg-stone-900 px-5 py-2 text-sm font-medium text-white shadow-sm transition hover:border-stone-950 hover:bg-stone-950 hover:shadow-md"
-            >
-              6141210171
-            </a>
-          </div>
-        </div>
-      </section>
+      <ContactButtons
+        contactData={[
+          { type: ContactType.whatsapp, data: "6141210171" },
+          { type: ContactType.telegram, data: "josefabio" },
+          { type: ContactType.email, data: "jf@josefabio.com" },
+          { type: ContactType.phone, data: "6141210171" },
+        ]}
+      />
 
       <Map coordinates="20.670658, -87.065804" />
 
