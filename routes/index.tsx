@@ -198,8 +198,8 @@ export default function Index() {
             vivir.
           </p>
           <p>
-            La propiedad cuenta con 3 recamaras y 3 banos completos, con
-            capacidad comoda para hasta 6 personas. Sus espacios son amplios,
+            La propiedad cuenta con 3 recamaras, 2 baños completos y 1 baño, con
+            capacidad cómoda para hasta 6 personas. Sus espacios son amplios,
             iluminados y acogedores, perfectos para disfrutar de un ambiente
             tranquilo y confortable.
           </p>
@@ -225,8 +225,8 @@ export default function Index() {
           </div>
 
           <p>
-            Excelente ubicacion: Cerca de Walmart, Chedraui, hospitales,
-            farmacias y diversas tiendas y servicios esenciales.
+            Excelente ubicacion: justo afuera de la privada está Walmart,
+            Chedraui y diversas tiendas y servicios esenciales.
           </p>
         </div>
       </section>
