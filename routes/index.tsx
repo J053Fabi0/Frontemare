@@ -170,21 +170,15 @@ export default function Index() {
 
       <section className="container px-6 pb-10 md:pl-16">
         <div className="max-w-3xl space-y-4 font-sans text-base leading-relaxed">
+          <p>Casa completamente amueblada en Fraccionamiento Frontemare.</p>
           <p>
-            Casa completamente amueblada en Fraccionamiento Frontemare, ideal
-            para quienes buscan comodidad, tranquilidad y espacios amplios para
-            vivir.
-          </p>
-          <p>
-            La propiedad cuenta con 3 recamaras, 2 baños completos y 1 baño, con
-            capacidad cómoda para hasta 6 personas. Sus espacios son amplios,
-            iluminados y acogedores, perfectos para disfrutar de un ambiente
-            tranquilo y confortable.
+            La propiedad cuenta con 3 recamaras, 2.5 baños. Con capacidad cómoda
+            para hasta 6 personas.{" "}
           </p>
 
           <Price
             price={21000}
-            description="Ocupación máxima para 6 personas, sin mascotas."
+            description="No mascotas, no niños. Estancia mínima 6 meses. No incluye servicios."
           />
 
           <div>
