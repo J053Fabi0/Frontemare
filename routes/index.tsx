@@ -1,6 +1,6 @@
 import Map from "@/components/Map.tsx";
 // import Price from "@/components/Price.tsx";
-import ContactButtons, { ContactType } from "@/components/ContactButtons.tsx";
+// import ContactButtons, { ContactType } from "@/components/ContactButtons.tsx";
 import RoomAndSpaces, { RoomOrSpace } from "@/components/RoomAndSpaces.tsx";
 
 const roomOrSpaces: RoomOrSpace[] = [
@@ -208,14 +208,14 @@ export default function Index() {
         </div>
       </section>
 
-      <ContactButtons
+      {/* <ContactButtons
         contactData={[
           { type: ContactType.whatsapp, data: "6141210171" },
           { type: ContactType.telegram, data: "josefabio" },
           { type: ContactType.email, data: "jf@josefabio.com" },
           { type: ContactType.phone, data: "6141210171" },
         ]}
-      />
+      /> */}
 
       <Map coordinates="20.670658, -87.065804" />
 
