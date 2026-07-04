@@ -1,5 +1,5 @@
 import Map from "@/components/Map.tsx";
-import Price from "@/components/Price.tsx";
+// import Price from "@/components/Price.tsx";
 import ContactButtons, { ContactType } from "@/components/ContactButtons.tsx";
 import RoomAndSpaces, { RoomOrSpace } from "@/components/RoomAndSpaces.tsx";
 
@@ -176,10 +176,10 @@ export default function Index() {
             para hasta 6 personas.{" "}
           </p>
 
-          <Price
+          {/* <Price
             price={21000}
             description="No mascotas, no niños. Estancia mínima 6 meses. No incluye servicios."
-          />
+          /> */}
 
           <div>
             <h2 className="text-xl font-semibold">Caracteristicas</h2>
